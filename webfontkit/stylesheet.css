@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'cambriabold';
+    src: url('cambriab-webfont.woff2') format('woff2'),
+         url('cambriab-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cambriaitalic';
+    src: url('cambriai-webfont.woff2') format('woff2'),
+         url('cambriai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cambriabold_italic';
+    src: url('cambriaz-webfont.woff2') format('woff2'),
+         url('cambriaz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

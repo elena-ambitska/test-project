@@ -1,0 +1,34 @@
+
+:root {
+  font-family: cambriabold;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  width: 100%;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 992px) {
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}

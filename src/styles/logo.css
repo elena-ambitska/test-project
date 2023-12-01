@@ -1,0 +1,18 @@
+.logo {
+    width: 107px;
+    height: 30px;
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 992px) {
+    .logo {
+        width: 214px;
+        height: 60px;
+        position: absolute;
+        bottom: 70px;
+        left: 70px;
+    }
+}

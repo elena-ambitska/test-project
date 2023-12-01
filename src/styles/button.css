@@ -1,0 +1,20 @@
+@import "./variables.css";
+
+.btn.primary {
+    background-color: var(--red);
+    color: var(--white);
+    width: 360px;
+    height: 80px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.btn.primary:hover {
+    background-color: var(--dark-red);
+}
